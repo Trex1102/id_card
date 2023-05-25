@@ -134,10 +134,10 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
 
 
-              child : Row(
+              child : const Row(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children:  [
                   Icon(
                     Icons.circle,
                     size: 18,
@@ -158,9 +158,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             const SizedBox(height: 3,),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Icon(
                   Icons.person,
                   size: 18,
@@ -183,9 +183,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             const SizedBox(height: 3,),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children:  [
                 Icon(
                   Icons.school,
                   size: 18,
@@ -200,9 +200,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ], // children
             ),
             const SizedBox(height: 3,),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Icon(
                   Icons.radio_button_checked_rounded,
                   size: 18,
@@ -217,9 +217,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ], // children
             ),
             const SizedBox(height: 3,),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children:  [
                 Icon(
                   Icons.location_city,
                   size: 18,
